@@ -1,0 +1,9 @@
+package com.schoolManagementSystem;
+
+public class Person {
+String name;
+int age;
+void displayInfo() {
+	
+}
+}

@@ -1,0 +1,28 @@
+package com.EmployeePayrollSystem;
+
+public class Employee {
+	String name;
+	int employeeId;
+	float salary;
+
+	Employee() {
+
+	}
+
+	Employee(String name, int employeeId) {
+
+	}
+
+	Employee(String name, int employeeId, float salary) {
+
+	}
+
+	public Employee(String string) {
+		
+	}
+
+	void calculatePay() {
+		float monthlySalary = (salary / 12);
+		System.out.println("Monthly salary:" + monthlySalary);
+	}
+}

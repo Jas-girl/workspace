@@ -1,0 +1,17 @@
+package com.libraryManagementSystem;
+
+public class MyMainClass {
+	public static void main(String[] args) {
+		Book b1=new Book();
+		b1.setTitle("Maths");
+		b1.setAuthor("Cbse");
+		b1.setISBN(234);
+		b1.setQuantity(2);
+		
+		
+		Library li=new Library();
+		li.addBooks(b1);
+		System.out.println(b1);
+		
+	}
+}

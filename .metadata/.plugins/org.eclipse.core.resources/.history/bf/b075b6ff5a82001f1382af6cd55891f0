@@ -1,0 +1,22 @@
+package com.VehicleRentalSystem;
+
+public  class Truck extends Vehicle {
+	int hour;
+	Truck(String make,String model,float baseRate,int hour){
+    	super.make=make;
+    	super.model=model;
+    	super.baseRate=baseRate;
+    	 this.hour=hour;
+    	 
+    }
+	@Override
+	public String toString() {
+		return "Bike [Make="+make+" model="+model+" baseRate="+baseRate+" hour=" + hour + "]";
+	}
+	void calculateRental() {
+		System.out.println("BaseRate:"+baseRate+"/hour");
+		System.out.println("Rental price:"+(baseRate*hour));
+	
+		
+	}
+}

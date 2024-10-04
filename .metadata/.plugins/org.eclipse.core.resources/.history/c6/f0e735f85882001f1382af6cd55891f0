@@ -1,0 +1,9 @@
+package com.VehicleRentalSystem;
+
+public abstract class Vehicle {
+	String make;
+	String model;
+	float baseRate;
+
+	abstract void calculateRental();
+}

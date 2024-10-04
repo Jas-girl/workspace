@@ -1,0 +1,9 @@
+package com.VehicleRentalSystem;
+
+public class Mymainclass {
+ public static void main(String[] args) {
+	Car obj=new Car("Maruti", "Sazuki", 40, 3);
+	obj.calculateRental();
+	
+}
+}

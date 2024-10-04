@@ -1,0 +1,10 @@
+package com.onlineStore;
+
+public class Mymainclass {
+public static void main(String[] args) {
+	Electronics obj=new Electronics("Tv", 20000, 1);
+	System.out.println(obj);
+	System.out.println("Total price:"+obj.calculateDiscount());
+	
+}
+}

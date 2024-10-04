@@ -1,0 +1,9 @@
+package com.schoolManagementSystem;
+
+public class Teacher {
+int employeeId;
+String subjects;
+void displayInfo() {
+	
+}
+}

@@ -1,0 +1,15 @@
+package com.VehicleRentalSystem;
+
+public class RentalServices {
+//	private int baseRate;
+//	private int hour;
+
+	void totalCost(Vehicle obj) {
+		System.out.println(obj);
+		obj.calculateRental();
+		System.out.println("BaseRate:"+obj.baseRate+"/hour");
+		System.out.println(obj.baseRate*obj.hour);
+	
+		
+	}
+}

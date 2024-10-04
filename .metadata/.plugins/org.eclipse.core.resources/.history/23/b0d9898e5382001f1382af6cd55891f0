@@ -1,0 +1,5 @@
+package com.VehicleRentalSystem;
+
+public abstract class Bike extends Vehicle {
+
+}

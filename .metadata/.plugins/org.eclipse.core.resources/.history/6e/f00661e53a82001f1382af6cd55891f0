@@ -1,0 +1,17 @@
+package com.BankingSystem;
+
+
+public class SavingsAccount extends BankAccount {
+	float savingAmt=10000;
+	@Override
+   void deposit(float balance) {
+		this.balance=balance;
+	  System.out.println("Depoist:"+this.balance);
+  }
+  void withdraw(float amt) {
+	
+	  System.out.println("Withdraw:"+amt);
+	  this.balance=balance-amt;
+	  currentBalance();
+  }
+}

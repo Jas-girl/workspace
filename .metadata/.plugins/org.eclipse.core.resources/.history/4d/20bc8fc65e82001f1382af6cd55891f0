@@ -1,0 +1,15 @@
+package com.schoolManagementSystem;
+
+public class Student extends Person {
+int studentId;
+char grade;
+String displayInfo(String name,int age,int studentId,char grade) {
+	  super.name=name;
+	  super.age=age;
+	  this.studentId=studentId;
+	  this.grade=grade;
+	  return "Student [name="+super.name+" age"+super.age+" thstudentId=" + studentId + ", grade=" + grade + "]";  
+	 
+}
+
+}

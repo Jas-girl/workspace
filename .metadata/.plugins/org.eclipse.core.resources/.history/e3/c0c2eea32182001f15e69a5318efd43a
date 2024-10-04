@@ -1,0 +1,17 @@
+package com.BankingSystem;
+
+public class BankAccount {
+	int accountNumber;
+	String accountHolder;
+	float balance;
+	void deposit(float balance) {
+		this.balance=balance;
+		System.out.println("The balance:"+balance);
+	}
+	void withdraw() {
+		
+	}
+	void currentBalance(float balance) {
+		
+	}
+}

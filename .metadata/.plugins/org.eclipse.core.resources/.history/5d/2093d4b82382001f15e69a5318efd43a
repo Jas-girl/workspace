@@ -1,0 +1,13 @@
+package com.BankingSystem;
+
+import java.util.Scanner;
+
+public class Mainclass {
+public static void main(String[] args) {
+	SavingsAccount obj=new SavingsAccount();
+	System.out.println("Enter the Amount");
+	Scanner sc=new Scanner(System.in);
+	float Amt=sc.nextFloat();
+	obj.deposit(Amt);
+}
+}

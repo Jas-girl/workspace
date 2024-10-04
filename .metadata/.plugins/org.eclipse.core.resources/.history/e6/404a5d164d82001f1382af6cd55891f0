@@ -1,0 +1,14 @@
+package com.onlineStore;
+
+public class Grocery extends Product {
+	Grocery(String name,float price,int qty){
+		super.name=name;
+		super.price=price;
+		super.quantity=qty;
+		
+	}
+	 float calculateDiscount() {
+		 super.price=price*0.15f*quantity;
+		 return price;
+	 }
+}

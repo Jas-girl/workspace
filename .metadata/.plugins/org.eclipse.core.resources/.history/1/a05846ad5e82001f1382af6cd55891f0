@@ -1,0 +1,11 @@
+package com.schoolManagementSystem;
+
+public class Mainclass {
+	public static void main(String[] args) {
+		Student st=new Student();
+//		st.displayInfo();
+		System.out.println(st);
+	}
+ 
+ 
+}
